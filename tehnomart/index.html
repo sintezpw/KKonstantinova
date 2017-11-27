@@ -6,65 +6,69 @@
       </head>
       <body>
           <header class="header">
-              <div class="menu">
-                    <div class="logo">
-                        <a href=""><h1>Техномарт</h1></a>
+              <div class="header-inner">
+                  <nav class="nav">
+                     <div class="menu">
+                        <div class="logo">
+                           <a href=""><h1>Техномарт</h1></a>
+                        </div>
+                        <ul class="menu menu_top">
+                           <li class="menu__element menu__element_top menu__element_search">
+                               <form class="search" action="" method="">
+                                  <button class="search-btn" type="submit">Поиск:</button>
+                                  <input class="search-input" type="text" name="search">
+                               </form>
+                           </li>
+                           <li class="menu__element menu__element_top menu__element__bookmarks">
+                               <a class="menu__element-link menu__element-link_top" href="">Закладки: 0</a>
+                            </li>
+                            <li class="menu__element menu__element_top menu__element_basket">
+                               <a class="menu__element-link menu__element-link_top" href="">Корзина: 0</a>
+                            </li>
+                            <li class="menu__element menu__element_top menu__element_order">
+                               <a class="menu__element-link menu__element-link_top menu__element__link_order_green" href="">Оформить заказ</a>
+                           </li>
+                       </ul>
+                   </div>
+                   <div class="table">
+                        <div class="table__info">
+                            <p class="table__info table__info_header_red"></p>
+                        </div>
+                        <div class="table__phone">
+                           <a class="table__phone-link" href="tel:+78125550555">+7 (812) 555 0555</a>
+                           <p class="table__info table__info_header">г. Санкт-Петербург, ул. Б. Конюшенная, д. 19/8</p>
+                        </div>
+                        <div class="table__user">
+                           <a class="table__user-entry" href="">Войти</a>
+                           <a class="table__user-reg" href="">Регистрация</a>
+                       </div>
+                   </div>
+                   <div class="menu">
+                        <ul class="menu menu_bottom">
+                           <li class="menu__element menu__element_bottom">
+                              <a class="menu__element-link menu__element-link_bottom" href="">Главная</a>
+                           </li>
+                           <li class="menu__element menu__element_bottom">
+                              <a class="menu__element-link menu__element-link_bottom" href="">Компания</a>
+                            </li>
+                            <li class="menu__element menu__element_bottom">
+                               <a class="menu__element-link menu__element-link_bottom" href="">Каталог</a>
+                            </li>
+                            <li class="menu__element menu__element_bottom">
+                               <a class="menu__element-link menu__element-link_bottom" href="">Новости</a>
+                            </li>
+                            <li class="menu__element menu__element_bottom">
+                               <a class="menu__element-link menu__element-link_bottom" href="">Спецпредложения</a>
+                            </li>
+                            <li class="menu__element menu__element_bottom">
+                               <a class="menu__element-link menu__element-link_bottom" href="">Доставка</a>
+                            </li>
+                            <li class="menu__element menu__element_bottom">
+                               <a class="menu__element-link menu__element-link_bottom" href="">Контакты</a>
+                           </li>
+                       </ul>
                     </div>
-                    <ul class="menu menu_top">
-                        <li class="menu__element menu__element_top menu__element_search">
-                           <form class="search" action="" method="">
-                               <button class="search-btn" type="submit">Поиск:</button>
-                               <input class="search-input" type="text" name="search">
-                          </form>
-                        </li>
-                        <li class="menu__element menu__element_top menu__element__bookmarks">
-                            <a class="menu__element__link menu__element__link_top" href="">Закладки: 0</a>
-                        </li>
-                        <li class="menu__element menu__element_top menu__element_basket">
-                            <a class="menu__element__link menu__element__link_top" href="">Корзина: 0</a>
-                        </li>
-                        <li class="menu__element menu__element_top menu__element_order">
-                            <a class="menu__element__link menu__element__link_top menu__element__link_order_green" href="">Оформить заказ</a>
-                        </li>
-                    </ul>
-              </div>
-              <div class="table">
-                  <div class="table__info">
-                      <p class="table__info table__info_red"></p>
-                  </div>
-                  <div class="table__phone">
-                      <a class="table__phone__link" href="tel:+78125550555">+7 (812) 555 0555</a>
-                      <p class="table__info table__info_header">г. Санкт-Петербург, ул. Б. Конюшенная, д. 19/8</p>
-                  </div>
-                  <div class="table__user">
-                      <a class="table__user__entry" href="">Войти</a>
-                      <a class="table__user__reg" href="">Регистрация</a>
-                  </div>
-              </div>
-              <div class="menu">
-                    <ul class="menu menu_bottom">
-                        <li class="menu__element menu__element_bottom">
-                            <a class="menu__element__link menu__element__link_bottom" href="">Главная</a>
-                        </li>
-                        <li class="menu__element menu__element_bottom">
-                            <a class="menu__element__link menu__element__link_bottom" href="">Компания</a>
-                        </li>
-                        <li class="menu__element menu__element_bottom">
-                            <a class="menu__element__link menu__element__link_bottom" href="">Каталог</a>
-                        </li>
-                        <li class="menu__element menu__element_bottom">
-                            <a class="menu__element__link menu__element__link_bottom" href="">Новости</a>
-                        </li>
-                        <li class="menu__element menu__element_bottom">
-                            <a class="menu__element__link menu__element__link_bottom" href="">Спецпредложения</a>
-                        </li>
-                        <li class="menu__element menu__element_bottom">
-                            <a class="menu__element__link menu__element__link_bottom" href="">Доставка</a>
-                        </li>
-                        <li class="menu__element menu__element_bottom">
-                            <a class="menu__element__link menu__element__link_bottom" href="">Контакты</a>
-                        </li>
-                   </ul>
+                  </nav>
               </div>
           </header>
           <main class="main">
