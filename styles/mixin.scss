@@ -1,0 +1,8 @@
+@mixin fontTitle{
+    font-family: 'Cuprum', sans-serif;
+    font-size: 30px;
+    line-height: 1;
+    text-transform: uppercase;
+    font-weight: 400;
+    color: $navy;
+}
